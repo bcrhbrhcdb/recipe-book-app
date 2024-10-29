@@ -4,5 +4,20 @@
   },
   "dependencies": {
     "servor": "^4.0.2"
-  }
+  },
+  "name": "recipe-book-app",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/recipe-book-app)",
+  "version": "0.1.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcrhbrhcdb/recipe-book-app.git"
+  },
+  "author": "Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcrhbrhcdb/recipe-book-app/issues"
+  },
+  "homepage": "https://github.com/bcrhbrhcdb/recipe-book-app#readme"
 }
