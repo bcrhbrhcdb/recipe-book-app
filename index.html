@@ -20,7 +20,12 @@
   <div class="recipe-area" id="recipe-area">
     <div class="add-recipe-info">
       <div class="recipe-info">
-        <h1>Basic Information</h1>
+      <h1>Basic Information</h1>
+      <br>
+      <label for="category">Make a category for your recipe!</label>
+      <br>
+      <input id="category" max="10" min="3" placeholder="Put your category here..." required>
+      <br>
       <label for="recipe-name-input">Input your recipe name</label>
       <br>
       <input id="recipe-name-input" type="text" min="5" max="25" placeholder="Input your name here..." required/>
@@ -37,6 +42,10 @@
       <br>
       <input id="prep-time" min="5" max="15" placeholder="Input Cook time here..." required>
       <br>
+      <button id="move-on-to-next-section">Move on to next section</button>
+      <h1>Recipe Ingredients</h1>
+      <p>Insert the Ingredients that are in your recipe!</p> 
+      <div id="ingredients"></div>
     </div>
   </div>
   </div>
