@@ -18,7 +18,7 @@ h1, p{
   background-color: #2A2121;
   border-radius: 5px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -32,5 +32,34 @@ button{
   border: 2px solid #090307;
   margin: 10px;
   width: auto;
+}
+.recipe-area{
+  background-color: #2A2121;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  
+}
 
+
+label{
+  color: seashell;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  font-size: 24px;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: seashell;
+  margin: 10px;
+}
+input::placeholder{
+  padding: 5px;
+  color:hsl(from color h s l);
+  font-weight: bold;
 }
