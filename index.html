@@ -45,7 +45,30 @@
       <button id="move-on-to-next-section">Move on to next section</button>
       <h1>Recipe Ingredients</h1>
       <p>Insert the Ingredients that are in your recipe!</p> 
-      <div id="ingredients"></div>
+      <div id="ingredients">
+        <select>
+          <option value="metric">Metric</option>
+          <option value="US">US</option>
+        </select>
+        <br>
+        <label for="ingredient">Input your ingredient</label>
+        <input id="ingredient" type="text" max="30" placeholder="Input first ingredient here..." required>
+        <br>
+        <label for="amount-of-ingredient">Input Amount of Ingredient</label>
+        <br>
+        <input id="amount-of-ingredient" type="number" max="100" placeholder="Amount of ingredient..." required>
+        <br>
+        <label for="unit-of-measurement">Unit of Measurment</label>
+        <select>
+          <option value="cups">Cups</option>
+          <option value="cups">Table Spoons</option>
+          <option value="cups">Teaspoons</option>
+          <option value="cups">Quart</option>
+          <option value="cups">Gallon</option>
+          <option value="cups">Bunches</option>
+          <option value="cups">Cloves</option>
+        </select>
+      </div>
     </div>
   </div>
   </div>

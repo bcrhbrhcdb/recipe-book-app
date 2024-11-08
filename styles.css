@@ -63,3 +63,16 @@ input::placeholder{
   color:hsl(from color h s l);
   font-weight: bold;
 }
+
+select{
+  background-color: #241B1C;
+  color: seashell;
+  border-radius: 3px;
+  padding: 5px;
+  border: 2px solid #090307;
+  margin: 10px;
+  width: auto;
+}
+select:hover, button:hover{
+  cursor: pointer;
+}
