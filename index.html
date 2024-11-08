@@ -52,6 +52,8 @@
         </select>
         <br>
         <label for="ingredient">Input your ingredient</label>
+
+        <br>
         <input id="ingredient" type="text" max="30" placeholder="Input first ingredient here..." required>
         <br>
         <label for="amount-of-ingredient">Input Amount of Ingredient</label>
@@ -59,6 +61,7 @@
         <input id="amount-of-ingredient" type="number" max="100" placeholder="Amount of ingredient..." required>
         <br>
         <label for="unit-of-measurement">Unit of Measurment</label>
+        <br>
         <select>
           <option value="cups">Cups</option>
           <option value="cups">Table Spoons</option>
@@ -68,10 +71,18 @@
           <option value="cups">Bunches</option>
           <option value="cups">Cloves</option>
         </select>
+        <br>
+        <button>Move to next section</button>
+        <br>
+        <h1>Directions</h1>
+        
+        <div id="direction-container">
+        </div>
+        <button>Add a Direction</button>
       </div>
     </div>
   </div>
   </div>
-
+<script src="script.js"></script>
 </body>
 </html>
